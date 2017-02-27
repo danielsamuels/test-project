@@ -1,0 +1,14 @@
+@import 'helpers/property-definitions.css';
+@import 'helpers/media-definitions.css';
+@import 'helpers/selector-definitions.css';
+@import 'helpers/mixins.css';
+@import 'base/define.css';
+
+/* We are targetting the admin's iframe */
+/* stylelint-disable selector-no-type */
+body {
+  @import 'wysiwyg/wysiwyg.css';
+
+  background-color: #fff;
+}
+/* stylelint-enable */
