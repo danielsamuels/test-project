@@ -10,6 +10,7 @@ SECTION_TYPES = (
         'sections': [
             ('homepage-hero', {
                 'fields': ['title', 'text', 'button_text', 'button_url'],
+                'icon': 'hero-landing-centered',
             }),
             ('landing-hero', {
                 'fields': ['title', 'text', 'image', 'button_text', 'button_url'],
@@ -21,7 +22,10 @@ SECTION_TYPES = (
             ('dual-column', {
                 'fields': ['title', 'text', 'button_text', 'button_url'],
             }),
-        ]
+            ('text-editor', {
+                'fields': ['content'],
+            }),
+        ],
     }),
     ('Misc', {
         'sections': [

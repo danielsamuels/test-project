@@ -30,8 +30,6 @@ def get_next_by_field(obj, field):
         return getattr(obj, 'get_next_by_{}'.format(field))()
     except obj.DoesNotExist:
         return obj._default_manager.last()
-    except Exception:
-        pass  # Will cause 'None' to be returned.
 
 
 # Usage: get_previous_by_field(obj, 'date')
@@ -41,5 +39,3 @@ def get_previous_by_field(obj, field):
         return getattr(obj, 'get_previous_by_{}'.format(field))()
     except obj.DoesNotExist:
         return obj._default_manager.first()
-    except Exception:
-        pass  # Will cause 'None' to be returned.
