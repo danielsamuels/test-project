@@ -25,7 +25,7 @@ onespacemedia-cms==2.0.1
 onespacemedia-server-management==0.5.0
 opbeat==3.5.2
 paramiko==1.16.0
-Pillow==4.0.0
+Pillow==6.2.0
 psycopg2==2.6.2
 pycparser==2.17
 pycrypto==2.6.1
