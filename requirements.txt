@@ -17,7 +17,7 @@ django-webpack-loader==0.4.1
 ecdsa==0.13
 Fabric==1.13.1
 fabric-virtualenv==0.3.0
-Jinja2==2.8
+Jinja2==2.11.3
 MarkupSafe==0.23
 oauthlib==2.0.1
 olefile==0.44
